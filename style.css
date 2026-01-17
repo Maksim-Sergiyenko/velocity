@@ -66,11 +66,6 @@ p {
   color: #0062B6;
 }
 
-/* -------------- MAIN------------ */
-
-.main {
-
-}
 
 /* -------------- WELCOME --------- */
 
@@ -140,8 +135,6 @@ p {
 
 /* ------------ ABOUT ---------- */
 
-.about {
-}
 
 .common-section {
   text-align: center;
@@ -232,5 +225,116 @@ p {
 
 .services .link {
   margin-top: 45px;
+}
+
+/*  ------------- TAB ----------*/
+
+.tabs-nav {
+  margin-bottom: 50px;
+}
+
+.tabs-nav button {
+  padding: 0 30px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #92a0ad;
+  border-radius: 4px;
+}
+
+.tabs-nav button.active {
+  background-color: #2E80B6;
+}
+
+.tabs-nav button + button {
+  margin-left: 15px;
+}
+
+.tabs-item img {
+  margin-bottom: 15px;
+}
+
+.tabs-item h4 {
+  margin-bottom: 15px;
+  font-size: 31px;
+  line-height: 1;
+  color: #676770;
+}
+
+.tabs-desc {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ---------- FOOTER -------- */
+
+.footer-desc {
+  padding: 35px 0;
+}
+
+.footer-desc h4 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+.footer__desc-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__desc-container > * {
+  width: 30%;
+}
+
+.footer-desc a {
+  font-size: 13px;
+  color: #668CAD;
+}
+
+.footer-desc li {
+  height: 30px;
+  position: relative;
+}
+
+.footer-desc li::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #d5d5e0;
+}
+
+.footer-social li::before {
+  width: calc(100% - 34px);
+}
+
+.footer-desc li + li {
+  margin-top: 6px;
+}
+
+.footer-social img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.footer-copy {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #383838;
+}
+
+.footer-copy p {
+  color: #9e9e9e;
 }
 
